@@ -41,9 +41,6 @@ categories: [학회소식, 교육]
 </div>
 <br>
 <p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2025년 8월 1일</p>
-<hr>
-
-
   <p style="line-height: 1.8em; font-size: 0.95em;">
     지오마인드학회 학회원님들께, <br>
     안녕하세요. 지오마인드학회입니다. <br>
@@ -199,8 +196,9 @@ categories: [학회소식, 교육]
       </tr>
     </tbody>
   </table>
+  <hr>
 
 
-  <p style="font-size: 0.95em; line-height: 1.8em;">📢 많은 관심과 참여 부탁드립니다.<br><br>지오마인드학회 드림</p>
+  <p style="font-size: 0.95em; line-height: 1.8em;">📢 많은 관심과 참여 부탁드립니다.<br>지오마인드학회 드림</p>
 
 
