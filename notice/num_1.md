@@ -41,7 +41,7 @@ categories: [학회소식, 교육]
 </div>
 <br>
 <p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2025년 8월 1일</p>
-<hr>
+
 
 <section style="margin-top: 2em;">
   <p style="line-height: 1.8em; font-size: 0.95em;">
@@ -56,24 +56,32 @@ categories: [학회소식, 교육]
     <li><strong>일시:</strong> 2025년 8월 26일 (화) 09:00 – 18:00</li>
     <li><strong>장소:</strong> 서울시립대학교 미래관 301호 <em>(미확정 - 추후 공지)</em></li>
     <li><strong>내용:</strong> 하루 만에 완성하는 GIS AI 챗봇 개발</li>
-<table class="customTable1">
+<table class="customTable1" style="width:100%; border-collapse: collapse; font-size: 0.95em;">
   <thead>
     <tr>
-      <th></th>
-      <th>회원</th>
-      <th>비회원</th>
+      <th style="padding: 0.7em; border: 1px solid #ddd; width: 20%;">구분</th>
+      <th style="padding: 0.7em; border: 1px solid #ddd;">내용</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>일반</td>
-      <td>50만원</td>
-      <td>80만원</td>
+      <td style="padding: 0.7em; border: 1px solid #ddd; text-align: center;">강사</td>
+      <td style="padding: 0.7em; border: 1px solid #ddd;">박은규</td>
     </tr>
     <tr>
-      <td>학생</td>
-      <td>30만원</td>
-      <td>50만원</td>
+      <td style="padding: 0.7em; border: 1px solid #ddd; text-align: center;">소속</td>
+      <td style="padding: 0.7em; border: 1px solid #ddd;">
+        경북대학교 지구시스템과학부 교수<br>
+        중국지질대학 객좌교수<br>
+        지오마인드학회 학회장<br>
+        SCI 저널 부편집장 (<em>Journal of Hydrology, Geosciences</em>)
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0.7em; border: 1px solid #ddd; text-align: center;">연구 분야</td>
+      <td style="padding: 0.7em; border: 1px solid #ddd;">
+        수리지질학, 지구통계학, ML & AI 기술의 지질학적 활용
+      </td>
     </tr>
   </tbody>
 </table>
@@ -175,9 +183,7 @@ categories: [학회소식, 교육]
       </tr>
     </tbody>
   </table>
-
-
+  <hr>
+  <br>
   <p style="font-size: 0.95em; line-height: 1.8em;">📢 많은 관심과 참여 부탁드립니다.<br><br>지오마인드학회 드림</p>
-
-
-</section>
+  </section>
