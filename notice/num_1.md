@@ -41,6 +41,7 @@ categories: [학회소식, 교육]
 </div>
 <br>
 <p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2025년 8월 1일</p>
+<hr>
 
 <section style="margin-top: 2em;">
   <p style="line-height: 1.8em; font-size: 0.95em;">
@@ -48,7 +49,7 @@ categories: [학회소식, 교육]
     안녕하세요. 지오마인드학회입니다. <br>
     아래와 같은 교육을 진행하려고 합니다. 많은 회원님들의 관심 부탁드립니다.
   </p>
-
+<hr>
 
   <h4>📌 기본 정보</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
@@ -79,7 +80,7 @@ categories: [학회소식, 교육]
 <br>
 <a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
   </ul>
-
+<hr>
 
   <h4>📖 과정 개요</h4>
   <p style="font-size: 0.95em; line-height: 1.8em;">
@@ -87,16 +88,16 @@ categories: [학회소식, 교육]
     수강생은 하루 동안의 집중 실습을 통해 자연어 명령을 이해하고, 스스로 파이썬 코드를 작성하여 GIS 분석을 수행하며, 그 결과를 시각화하는 AI 챗봇을 완성하게 됩니다.<br>
     코딩 경험이 없어도 LLM을 활용하여 누구나 자신만의 GIS 분석 자동화 도구를 만들 수 있습니다.
   </p>
-
+<hr>
 
   <h4>👨‍🏫 강사 소개</h4>
   <p style="font-size: 0.95em; line-height: 1.8em;">
-| 구분 | 내용 |
-|------|------------------------------------------------|
-| **강사** | 박은규 |
-| **소속** | 경북대학교 지구시스템과학부 교수<br>중국지질대학 객좌교수<br>지오마인드학회 학회장<br>SCI 저널 부편집장 (*Journal of Hydrology, Geosciences*) |
-| **연구 분야** | 수리지질학, 지구통계학, ML & AI 기술의 지질학적 활용 |
-
+  | 구분 | 내용 |
+  |------|------------------------------------------------|
+  | **강사** | 박은규 |
+  | **소속** | 경북대학교 지구시스템과학부 교수<br>중국지질대학 객좌교수<br>지오마인드학회 학회장<br>SCI 저널 부편집장 (*Journal of Hydrology, Geosciences*) |
+  | **연구 분야** | 수리지질학, 지구통계학, ML & AI 기술의 지질학적 활용 |
+<hr>
 
   <h4>🎯 학습 목표</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
@@ -106,7 +107,7 @@ categories: [학회소식, 교육]
     <li>자신만의 GIS 분석 도구를 모듈화하고 재사용하는 방법 습득</li>
     <li>텍스트 지시만으로 공간 분석 결과를 반환하는 GIS AI 챗봇 완성</li>
   </ul>
-
+<hr>
 
   <h4>👥 수강 대상 및 선수 요건</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
@@ -114,7 +115,7 @@ categories: [학회소식, 교육]
     <li><strong>코딩 경험:</strong> 불필요 (웹 기반 LLM을 통해 자동 코드 작성 및 수정 가능)</li>
     <li><strong>준비물:</strong> 개인 노트북 (Windows / macOS / Linux, 인터넷 연결 가능)</li>
   </ul>
-
+<hr>
 
   <h4>🗓️ 코스 스케줄 (09:00 – 18:00)</h4>
 
