@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "2025년 제 1차 GIS AI 챗봇 개발 교육 안내"
+title: "제 1차 GIS AI 챗봇 개발 교육 안내"
 date: 2025-08-02
 categories: [학회소식, 교육]
 ---
@@ -36,36 +36,53 @@ categories: [학회소식, 교육]
 <br>
 <br>
 <div class="gayheader">
-  <span>2025년 제1차 GIS AI 챗봇 개발 교육 안내</span>
+  <span>제1차 GIS AI 챗봇 개발 교육 안내</span>
   <div></div>
 </div>
 
 <section style="margin-top: 2em;">
   <p style="line-height: 1.8em; font-size: 0.95em;">
-    지오마인드학회 학회원님들께, <br><br>
-    안녕하세요. 지오마인드학회입니다. <br><br>
+    지오마인드학회 학회원님들께, <br>
+    안녕하세요. 지오마인드학회입니다. <br>
     아래와 같은 교육을 진행하려고 합니다. 많은 회원님들의 관심 부탁드립니다.
   </p>
 
   <hr>
+  <br>
 
-  <h3>📌 기본 정보</h3>
+  <h4>📌 기본 정보</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
     <li><strong>일시:</strong> 2025년 8월 26일 (화) 09:00 – 18:00</li>
     <li><strong>장소:</strong> 서울시립대학교 미래관 301호 <em>(미확정 - 추후 공지)</em></li>
     <li><strong>내용:</strong> 하루 만에 완성하는 GIS AI 챗봇 개발</li>
-    <li><strong>신청:</strong> <a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank">튜토리얼 세션 신청하기</a></li>
-    <li><strong>등록비:</strong>
-      <ul>
-        <li>회원 (일반: 50만원 / 학생: 30만원)</li>
-        <li>비회원 (일반: 80만원 / 학생: 50만원)</li>
-      </ul>
-    </li>
+  <a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
+<table class="customTable1">
+  <thead>
+    <tr>
+      <th></th>
+      <th>회원</th>
+      <th>비회원</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>일반</td>
+      <td>50만원</td>
+      <td>80만원</td>
+    </tr>
+    <tr>
+      <td>학생</td>
+      <td>30만원</td>
+      <td>50만원</td>
+    </tr>
+  </tbody>
+</table>
   </ul>
 
   <hr>
+  <br>
 
-  <h3>📖 과정 개요</h3>
+  <h4>📖 과정 개요</h4>
   <p style="font-size: 0.95em; line-height: 1.8em;">
     본 과정은 최신 거대언어모델(LLM) 기술과 지리정보시스템(GIS)을 결합하여, 단순 반복적인 공간 데이터 분석 작업을 자동화하는 AI 에이전트를 직접 구축하는 방법을 학습합니다.<br>
     수강생은 하루 동안의 집중 실습을 통해 자연어 명령을 이해하고, 스스로 파이썬 코드를 작성하여 GIS 분석을 수행하며, 그 결과를 시각화하는 AI 챗봇을 완성하게 됩니다.<br>
@@ -73,10 +90,11 @@ categories: [학회소식, 교육]
   </p>
 
   <hr>
+  <br>  
 
-  <h3>👨‍🏫 강사 소개</h3>
+  <h4>👨‍🏫 강사 소개</h4>
   <p style="font-size: 0.95em; line-height: 1.8em;">
-    <strong>박은규</strong><br>
+    <strong>강사: 박은규</strong><br>
     - 경북대학교 지구시스템과학부 교수<br>
     - 중국지질대학 객좌교수<br>
     - 지오마인드학회 학회장<br>
@@ -85,8 +103,9 @@ categories: [학회소식, 교육]
   </p>
 
   <hr>
+  <br>
 
-  <h3>🎯 학습 목표</h3>
+  <h4>🎯 학습 목표</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
     <li>LLM을 활용한 코드 자동 생성 및 실행 원리 이해</li>
     <li>GeoPandas를 이용한 공간 데이터 처리 및 시각화 능력 함양</li>
@@ -96,8 +115,9 @@ categories: [학회소식, 교육]
   </ul>
 
   <hr>
+  <br>  
 
-  <h3>👥 수강 대상 및 선수 요건</h3>
+  <h4>👥 수강 대상 및 선수 요건</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
     <li><strong>수강 대상:</strong> 도시, 환경, 수자원, 토목, 리모트센싱, 지질 등 공간자료를 다루는 모든 분야의 연구자 및 실무자</li>
     <li><strong>코딩 경험:</strong> 불필요 (웹 기반 LLM을 통해 자동 코드 작성 및 수정 가능)</li>
@@ -105,8 +125,9 @@ categories: [학회소식, 교육]
   </ul>
 
   <hr>
+  <br>
 
-  <h3>🗓️ 코스 스케줄 (09:00 – 18:00)</h3>
+  <h4>🗓️ 코스 스케줄 (09:00 – 18:00)</h4>
 
   <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
     <thead>
@@ -166,8 +187,9 @@ categories: [학회소식, 교육]
   </table>
 
   <hr>
-
+  <br>
+  
   <p style="font-size: 0.95em; line-height: 1.8em;">📢 많은 관심과 참여 부탁드립니다.<br><br>지오마인드학회 드림</p>
 
-  <a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
+
 </section>
