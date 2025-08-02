@@ -41,9 +41,9 @@ categories: [학회소식, 교육]
 </div>
 <br>
 <p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2025년 8월 1일</p>
+<hr>
 
 
-<section style="margin-top: 2em;">
   <p style="line-height: 1.8em; font-size: 0.95em;">
     지오마인드학회 학회원님들께, <br>
     안녕하세요. 지오마인드학회입니다. <br>
@@ -56,7 +56,43 @@ categories: [학회소식, 교육]
     <li><strong>일시:</strong> 2025년 8월 26일 (화) 09:00 – 18:00</li>
     <li><strong>장소:</strong> 서울시립대학교 미래관 301호 <em>(미확정 - 추후 공지)</em></li>
     <li><strong>내용:</strong> 하루 만에 완성하는 GIS AI 챗봇 개발</li>
-<table class="customTable1" style="width:100%; border-collapse: collapse; font-size: 0.95em;">
+<table class="customTable1">
+  <thead>
+    <tr>
+      <th></th>
+      <th>회원</th>
+      <th>비회원</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>일반</td>
+      <td>50만원</td>
+      <td>80만원</td>
+    </tr>
+    <tr>
+      <td>학생</td>
+      <td>30만원</td>
+      <td>50만원</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
+  </ul>
+<hr>
+
+  <h4>📖 과정 개요</h4>
+  <p style="font-size: 0.95em; line-height: 1.8em;">
+    본 과정은 최신 거대언어모델(LLM) 기술과 지리정보시스템(GIS)을 결합하여, 단순 반복적인 공간 데이터 분석 작업을 자동화하는 AI 에이전트를 직접 구축하는 방법을 학습합니다.<br>
+    수강생은 하루 동안의 집중 실습을 통해 자연어 명령을 이해하고, 스스로 파이썬 코드를 작성하여 GIS 분석을 수행하며, 그 결과를 시각화하는 AI 챗봇을 완성하게 됩니다.<br>
+    코딩 경험이 없어도 LLM을 활용하여 누구나 자신만의 GIS 분석 자동화 도구를 만들 수 있습니다.
+  </p>
+<hr>
+
+  <h4>👨‍🏫 강사 소개</h4>
+  <p style="font-size: 0.95em; line-height: 1.8em;">
+  <table class="customTable1" style="width:100%; border-collapse: collapse; font-size: 0.95em;">
   <thead>
     <tr>
       <th style="padding: 0.7em; border: 1px solid #ddd; width: 20%;">구분</th>
@@ -85,26 +121,6 @@ categories: [학회소식, 교육]
     </tr>
   </tbody>
 </table>
-<br>
-<a href="https://forms.gle/ziXCz5QgJN1CpLHv5" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
-  </ul>
-<hr>
-
-  <h4>📖 과정 개요</h4>
-  <p style="font-size: 0.95em; line-height: 1.8em;">
-    본 과정은 최신 거대언어모델(LLM) 기술과 지리정보시스템(GIS)을 결합하여, 단순 반복적인 공간 데이터 분석 작업을 자동화하는 AI 에이전트를 직접 구축하는 방법을 학습합니다.<br>
-    수강생은 하루 동안의 집중 실습을 통해 자연어 명령을 이해하고, 스스로 파이썬 코드를 작성하여 GIS 분석을 수행하며, 그 결과를 시각화하는 AI 챗봇을 완성하게 됩니다.<br>
-    코딩 경험이 없어도 LLM을 활용하여 누구나 자신만의 GIS 분석 자동화 도구를 만들 수 있습니다.
-  </p>
-<hr>
-
-  <h4>👨‍🏫 강사 소개</h4>
-  <p style="font-size: 0.95em; line-height: 1.8em;">
-  | 구분 | 내용 |
-  |------|------------------------------------------------|
-  | **강사** | 박은규 |
-  | **소속** | 경북대학교 지구시스템과학부 교수<br>중국지질대학 객좌교수<br>지오마인드학회 학회장<br>SCI 저널 부편집장 (*Journal of Hydrology, Geosciences*) |
-  | **연구 분야** | 수리지질학, 지구통계학, ML & AI 기술의 지질학적 활용 |
 <hr>
 
   <h4>🎯 학습 목표</h4>
@@ -183,7 +199,8 @@ categories: [학회소식, 교육]
       </tr>
     </tbody>
   </table>
-  <hr>
-  <br>
+
+
   <p style="font-size: 0.95em; line-height: 1.8em;">📢 많은 관심과 참여 부탁드립니다.<br><br>지오마인드학회 드림</p>
-  </section>
+
+
