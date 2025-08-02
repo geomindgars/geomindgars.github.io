@@ -31,8 +31,6 @@ categories: [학회소식, 교육]
     font-family: 'Noto Sans','맑은 고딕','Malgun Gothic',Arial,Helvetica,sans-serif,Lucida,'Grande','Microsoft YaHei','Hiragino Sans GB', 'SimSun', 'Meiryo';
     font-size: 20px;
 }
-
-  }
 </style>
 
 
