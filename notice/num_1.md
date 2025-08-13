@@ -51,7 +51,7 @@ categories: [학회소식, 교육]
   <h4>📌 기본 정보</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
     <li><strong>일시:</strong> 2025년 8월 26일 (화) 09:00 – 18:00</li>
-    <li><strong>장소:</strong> 서울시립대학교 100주년기념관 601호</li>
+    <li><strong>장소:</strong> 서울시립대학교 100주년기념관 나동 601호</li>
     <li style="list-style: none; margin: 10px 0;">
     <img src="/assets/img/location.png" alt="행사 관련 이미지" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   </li>
