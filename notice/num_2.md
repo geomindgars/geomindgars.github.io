@@ -53,7 +53,7 @@ categories: [학회소식, 교육]
     <li><strong>일시:</strong> 2025년 12월 4일 (목)~ 2025년 12월 4일 (금)</li>
     <li><strong>장소:</strong> 경북대학교 제2과학관 213호</li>
     <li style="list-style: none; margin: 10px 0;">
-    <img src="/assets/img/location.png" alt="행사 관련 이미지" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+    <img src="/assets/img/location2.png" alt="행사 관련 이미지" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
   </li>
   
     <li><strong>내용:</strong> 지하수 관리의 AI 전환: LLM·RAG·Agent 시스템 기반 지능형 분석 워크플로우(AI Transformation in Groundwater Management: LLM, RAG, and Multi-Agent Intelligent Workflow)</li>
