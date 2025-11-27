@@ -141,24 +141,19 @@ categories: [학회소식, 교육]
         <td style="padding: 0.6em; border: 1px solid #ddd;">지하수 관리의 복잡성: 다요소·다주체·불확실성<hr>인력 구조 변화와 지식 단절 문제<hr>AI 협업 시스템 도입의 의미와 목표</td>
       </tr>
       <tr>
-        <td>10:00 – 11:00</td>
-        <td>🤖 LLM 기초와 첫 AI 에이전트</td>
-        <td>LLM의 원리 이해 및 간단한 챗봇 에이전트 구현</td>
+        <td>14:30 – 15:30</td>
+        <td>🤖 LLM → RAG → Agent로 이어지는 기술 진화</td>
+        <td>LLM의 한계(Hallucination, 전문성 갭)와 개선 방향<hr>RAG, API, Fine-tuning 비교<hr>Geospatial RAG 개념 & 공간지능(Spatial Intelligence)의 부재<hr>LLM이 “챗봇”을 넘어서 에이전트가 되는 흐름</td>
       </tr>
       <tr>
-        <td>11:00 – 12:00</td>
-        <td>🛠️ AI 코드 생성 워크플로우</td>
-        <td>요구사항을 코드로 변환·검증·실행하는 워크플로우 체험</td>
+        <td>15:40 – 16:20</td>
+        <td>🛠️ AI 에이전트 아키텍처 개요</td>
+        <td>Tool-orchestrated Agent 구조<hr>Multi-Agent 협업과 역할 분화<hr>지하수 분야에서 필요한 전문 에이전트 유형(GIS, Modeling, Geochem, Geostat 등)</td>
       </tr>
       <tr>
-        <td>12:00 – 13:00</td>
-        <td>🍱 점심식사</td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>13:00 – 14:00</td>
-        <td>🗺️ GeoPandas 기초 및 지도 시각화</td>
-        <td>GeoPandas 소개, Shapefile 로드 및 기본 지도 시각화</td>
+        <td>16:20 – 17:00</td>
+        <td>🗺️ 실시간 데모 시나리오 개요 설명</td>
+        <td>지하수 전문가 회의 자동화(Review Acceleration)<hr>공간분석(GIS Agent)<hr>수리지질 모델링(Modeling Agent)<hr>수질 진단(Geochem Agent)<hr>공간 예측(Geostat Agent)</td>
       </tr>
       <tr>
         <td>14:00 – 15:00</td>
