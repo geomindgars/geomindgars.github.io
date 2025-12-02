@@ -50,7 +50,7 @@ categories: [학회소식, 교육]
 
   <h4>📌 기본 정보</h4>
   <ul style="font-size: 0.95em; line-height: 1.8em;">
-    <li><strong>일시:</strong> 2025년 12월 4일 (목)~ 2025년 12월 4일 (금)</li>
+    <li><strong>일시:</strong> 2025년 12월 4일 (목)~ 2025년 12월 5일 (금)</li>
     <li><strong>장소:</strong> 경북대학교 제2과학관 213호</li>
     <li style="list-style: none; margin: 10px 0;">
     <img src="/assets/img/location2.png" alt="행사 관련 이미지" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
@@ -159,7 +159,7 @@ categories: [학회소식, 교육]
   </table>
   <hr>
 
-  <h4>🗓️ 코스 스케줄 (Day 2 — 12월 5일(목) 10:00–13:00)</h4>
+  <h4>🗓️ 코스 스케줄 (Day 2 — 12월 5일(금) 10:00–13:00)</h4>
 
   <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
     <thead>
