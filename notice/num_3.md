@@ -31,6 +31,72 @@ categories: [학회소식, 워크샵]
     font-family: 'Noto Sans','맑은 고딕','Malgun Gothic',Arial,Helvetica,sans-serif,Lucida,'Grande','Microsoft YaHei','Hiragino Sans GB', 'SimSun', 'Meiryo';
     font-size: 20px;
 }
+ /* 바깥(전체) 일정표 */
+  .programTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95em;
+  }
+  .programTable th, .programTable td {
+    border: 1px solid #000;
+    padding: 12px 10px;
+    vertical-align: middle;
+  }
+  .programTable thead th {
+    background: #e9f6fb;  /* 그림 상단 옅은 하늘색 */
+    font-weight: 800;
+    text-align: center;
+  }
+  .timeCell {
+    width: 20%;
+    text-align: center;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .centerCell { text-align: center; }
+
+  /* 특별세션 내부(중첩) 표 */
+  .sessionTable {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  .sessionTable td {
+    border: 1px solid #000;
+    padding: 14px 10px;
+    vertical-align: middle;
+  }
+  .sessionHeaderRow td {
+    background: #cfdcf6;  /* 세션명 배경(하늘색) */
+    font-weight: 900;
+    font-size: 1.05em;
+    padding: 16px 14px;
+    text-align: left;
+  }
+  .sessionNo {
+    width: 9%;
+    text-align: center;
+    font-weight: 800;
+    background: #efede7f0;  /* 연노랑 */
+  }
+  .sessionTopic {
+    width: 61%;
+    text-align: center;
+    background: #efede7f0;  /* 연노랑 */
+    line-height: 1.35em;
+    font-weight: 600;
+  }
+  .sessionSpeaker {
+    width: 30%;
+    text-align: center;
+    line-height: 1.35em;
+    font-weight: 600;
+  }
+
+  /* 중첩 표가 들어가는 셀의 패딩 제거(그림처럼 딱 맞게) */
+  .noPadding {
+    padding: 0 !important;
+  }
 </style>
 
 <br>
@@ -101,163 +167,151 @@ categories: [학회소식, 워크샵]
 
 <h4>🗓️ 프로그램 세부일정</h4>
 
-<table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
+<table class="programTable">
   <thead>
-    <tr style="background-color: #f2f2f2;">
-      <th style="padding: 0.6em; border: 1px solid #ccc;">시간</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">내용</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">발표자 및 비고</th>
+    <tr>
+      <th>시 간</th>
+      <th>내 용</th>
+      <th>발표자 및 비고</th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">09:30–10:00 (30')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">등록</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
+      <td class="timeCell">09:30–10:00(30')</td>
+      <td class="centerCell">등록</td>
+      <td></td>
     </tr>
+
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">10:00–10:10 (10')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">개회사</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">지오마인드학회장</td>
+      <td class="timeCell">10:00–10:10(10')</td>
+      <td class="centerCell">개회사</td>
+      <td class="centerCell" style="font-weight:700;">지오마인드학회장</td>
     </tr>
+
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">10:10–10:40 (30')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">[기조발표 1]</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
+      <td class="timeCell">10:10–10:40(30')</td>
+      <td style="font-weight:800;">[기조발표1]</td>
+      <td></td>
     </tr>
+
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">10:40–11:40 (60')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
-        [기조발표 2]<br>
-        도래한 미래: AI 에이전트 기반 지하수 디지털 트윈
+      <td class="timeCell">10:40–11:40(60')</td>
+      <td>
+        <div style="font-weight:800;">[기조발표2]</div>
+        <div style="margin-top:6px; font-weight:700;">
+          도래한 미래: AI 에이전트 기반 지하수 디지털 트윈
+        </div>
       </td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
+      <td class="centerCell" style="font-weight:700;">
         박은규 회장<br>(지오마인드학회)
       </td>
     </tr>
+
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">11:40–13:00 (80')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">점심식사</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
+      <td class="timeCell">11:40–13:00(80')</td>
+      <td class="centerCell" style="font-weight:800;">점심식사</td>
+      <td></td>
+    </tr>
+
+    <!-- ===================== 특별세션 1 ===================== -->
+    <tr>
+      <td class="timeCell" rowspan="1" style="border-bottom:0;"></td>
+      <td colspan="2" style="border-bottom:0;"></td>
     </tr>
 
     <tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40 (100')</td>
-  <td class="sessionHeader" style="padding: 0.6em; border: 1px solid #ddd;">
-    특별세션 1<br>환경정보와 GeoMind
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    좌장: 정형섭 교수 (서울시립대학교)
-  </td>
-</tr>
+      <td class="timeCell">13:00–14:40(100')</td>
+      <td class="noPadding" colspan="2">
+        <table class="sessionTable">
+          <tr class="sessionHeaderRow">
+            <td colspan="3">특별세션1: 환경정보와 GeoMind</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    1) Geo-AI(공간인공지능)를 활용한 생태자산 가치평가 및 전략
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    김기동 실장 (국립생태원)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">1</td>
+            <td class="sessionTopic">Geo-AI(공간인공지능)를 활용한<br>생태자산 가치평가 및 전략</td>
+            <td class="sessionSpeaker">김기동 실장<br>(국립생태원)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    2) GEMS 적설 탐지 고도화를 위한 최적화된 딥러닝 모델 연구
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    유진우 (서울시립대학교)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">2</td>
+            <td class="sessionTopic">GEMS 적설 탐지 고도화를 위한<br>최적화된 딥러닝 모델 연구</td>
+            <td class="sessionSpeaker">유진우<br>(서울시립대학교)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    3) 인공지능을 활용한 정지궤도 환경위성 기본산출물(PM) 품질 향상 및 최적화
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    공성현 (서울시립대학교)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">3</td>
+            <td class="sessionTopic">인공지능을 활용한 정지궤도 환경위성<br>기본산출물(PM) 품질 향상 및 최적화</td>
+            <td class="sessionSpeaker">공성현<br>(서울시립대학교)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    4) EMSA 항공영상 위치 정확도 확보를 위한 센서 모델링 및 INR 기법 적용
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    정준혁 (서울시립대학교)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">4</td>
+            <td class="sessionTopic">EMSA 항공영상 위치 정확도 확보를<br>위한 센서 모델링 및 INR 기법 적용</td>
+            <td class="sessionSpeaker">정준혁<br>(서울시립대학교)</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">14:40–15:00 (20')</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">커피 브레이크 및 휴식</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
-</tr>
+    <tr>
+      <td class="timeCell">14:40–15:00(20')</td>
+      <td class="centerCell" style="font-weight:800;">커피 브레이크 및 휴식</td>
+      <td></td>
+    </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40 (100')</td>
-  <td class="sessionHeader" style="padding: 0.6em; border: 1px solid #ddd;">
-    특별세션 2<br>산사태 발생 스마트 조사와 AICT 융합
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    좌장: 최지용 교수 (충남대학교)
-  </td>
-</tr>
+    <!-- ===================== 특별세션 2 ===================== -->
+    <tr>
+      <td class="timeCell">15:00–16:40(100')</td>
+      <td class="noPadding" colspan="2">
+        <table class="sessionTable">
+          <tr class="sessionHeaderRow">
+            <td colspan="3">특별세션2: 산사태 발생 스마트 조사와 AICT 융합</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    1) 산사태 발생 우려지역 스마트조사 기술개발 결과 발표
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    이명진 연구위원 (한국환경연구원)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">1</td>
+            <td class="sessionTopic">산사태 발생 우려지역 스마트조사<br>기술개발 결과 발표</td>
+            <td class="sessionSpeaker">이명진 연구위원<br>(한국환경연구원)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    2) 기계학습을 이용한 우즈베키스탄 산사태 분석
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    이사로 책임연구원 (한국지질자원연구원)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">2</td>
+            <td class="sessionTopic">기계학습을 이용한 우즈베키스탄 산사태<br>분석</td>
+            <td class="sessionSpeaker">이사로 책임연구원<br>(한국지질자원연구원)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    3) AI 기반 산사태 취약성 분석 : 다중 모델비교 연구
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    이선민 전문연구원 (한국환경연구원)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">3</td>
+            <td class="sessionTopic">AI 기반 산사태 취약성 분석<br>: 다중 모델비교 연구</td>
+            <td class="sessionSpeaker">이선민 전문연구원<br>(한국환경연구원)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    4) AI 기반 산림 변화탐지 모니터링 및 산사태 발생 연계 분석
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    정봉석 연구원 (한국환경연구원)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">4</td>
+            <td class="sessionTopic">AI 기반 산림 변화탐지 모니터링 및<br>산사태 발생 연계 분석</td>
+            <td class="sessionSpeaker">정봉석 연구원<br>(한국환경연구원)</td>
+          </tr>
 
-<tr>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    5) 패널토론 (조원희 교수, 임철희 교수)
-  </td>
-  <td style="padding: 0.6em; border: 1px solid #ddd;">
-    조원희 교수 (공주대학교), 임철희 교수 (국민대학교)
-  </td>
-</tr>
+          <tr>
+            <td class="sessionNo">5</td>
+            <td class="sessionTopic">
+              패널토론<br>
+              - 조원희 교수(공주대학교), 임철희 교수(국민대학교)
+            </td>
+            <td class="sessionSpeaker">-</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="timeCell">16:40–17:00(20')</td>
+      <td class="centerCell" style="font-weight:800;">폐회사 및 마무리</td>
+      <td class="centerCell" style="font-weight:700;">지오마인드학회장</td>
+    </tr>
   </tbody>
-</table>
 
 <hr>
 
