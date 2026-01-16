@@ -142,53 +142,120 @@ categories: [학회소식, 워크샵]
     </tr>
 
     <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40 (100')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
-        <strong>특별세션 1: 환경정보와 GeoMind</strong><br>
-        1) Geo-AI(공간인공지능)를 활용한 생태자산 가치평가 및 전략<br>
-        2) GEMS 적설 탐지 고도화를 위한 최적화된 딥러닝 모델 연구<br>
-        3) 인공지능을 활용한 정지궤도 환경위성 기본산출물(PM) 품질 향상 및 최적화<br>
-        4) EMSA 항공영상 위치 정확도 확보를 위한 센서 모델링 및 INR 기법 적용
-      </td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
-        좌장: 정형섭 교수<br>(서울시립대학교)<br><br>
-        김기동 실장(국립생태원)<br>
-        유진우(서울시립대학교)<br>
-        공성현(서울시립대학교)<br>
-        정준혁(서울시립대학교)
-      </td>
-    </tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40 (100')</td>
+  <td class="sessionHeader" style="padding: 0.6em; border: 1px solid #ddd;">
+    특별세션 1<br>환경정보와 GeoMind
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    좌장: 정형섭 교수 (서울시립대학교)
+  </td>
+</tr>
 
-    <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">14:40–15:00 (20')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">커피 브레이크 및 휴식</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
-    </tr>
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    1) Geo-AI(공간인공지능)를 활용한 생태자산 가치평가 및 전략
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    김기동 실장 (국립생태원)
+  </td>
+</tr>
 
-    <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40 (100')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
-        <strong>특별세션 2: 산사태 발생 스마트 조사와 AICT 융합</strong><br>
-        1) 산사태 발생 우려지역 스마트조사 기술개발 결과 발표<br>
-        2) 기계학습을 이용한 우즈베키스탄 산사태 분석<br>
-        3) AI 기반 산사태 취약성 분석: 다중 모델비교 연구<br>
-        4) AI 기반 산림 변화탐지 모니터링 및 산사태 발생 연계 분석<br>
-        5) 패널토론 (조원희 교수, 임철희 교수)
-      </td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">
-        좌장: 최지용 교수<br>(충남대학교)<br><br>
-        이명진 연구위원(한국환경연구원)<br>
-        이사로 책임연구원(한국지질자원연구원)<br>
-        이선민 전문연구원(한국환경연구원)<br>
-        정봉석 연구원(한국환경연구원)
-      </td>
-    </tr>
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    2) GEMS 적설 탐지 고도화를 위한 최적화된 딥러닝 모델 연구
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    유진우 (서울시립대학교)
+  </td>
+</tr>
 
-    <tr>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">16:40–17:00 (20')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">폐회사 및 마무리</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">지오마인드학회장</td>
-    </tr>
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    3) 인공지능을 활용한 정지궤도 환경위성 기본산출물(PM) 품질 향상 및 최적화
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    공성현 (서울시립대학교)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">13:00–14:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    4) EMSA 항공영상 위치 정확도 확보를 위한 센서 모델링 및 INR 기법 적용
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    정준혁 (서울시립대학교)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">14:40–15:00 (20')</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">커피 브레이크 및 휴식</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40 (100')</td>
+  <td class="sessionHeader" style="padding: 0.6em; border: 1px solid #ddd;">
+    특별세션 2<br>산사태 발생 스마트 조사와 AICT 융합
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    좌장: 최지용 교수 (충남대학교)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    1) 산사태 발생 우려지역 스마트조사 기술개발 결과 발표
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    이명진 연구위원 (한국환경연구원)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    2) 기계학습을 이용한 우즈베키스탄 산사태 분석
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    이사로 책임연구원 (한국지질자원연구원)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    3) AI 기반 산사태 취약성 분석 : 다중 모델비교 연구
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    이선민 전문연구원 (한국환경연구원)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    4) AI 기반 산림 변화탐지 모니터링 및 산사태 발생 연계 분석
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    정봉석 연구원 (한국환경연구원)
+  </td>
+</tr>
+
+<tr>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">15:00–16:40</td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    5) 패널토론 (조원희 교수, 임철희 교수)
+  </td>
+  <td style="padding: 0.6em; border: 1px solid #ddd;">
+    조원희 교수 (공주대학교), 임철희 교수 (국민대학교)
+  </td>
+</tr>
   </tbody>
 </table>
 
