@@ -231,7 +231,7 @@ categories: [학회소식, 워크샵]
           <!-- 1 -->
           <tr>
             <td style="width:70px; padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">1</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               Geo-AI(공간인공지능)를 활용한<br>생태자산 가치평가 및 전략
             </td>
             <td style="width:28%; padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -242,7 +242,7 @@ categories: [학회소식, 워크샵]
           <!-- 2 -->
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">2</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               GEMS 적설 탐지 고도화를 위한<br>최적화된 딥러닝 모델 연구
             </td>
             <td style="padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -253,7 +253,7 @@ categories: [학회소식, 워크샵]
           <!-- 3 -->
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">3</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               인공지능을 활용한 정지궤도 환경위성<br>기본산출물(PM) 품질 향상 및 최적화
             </td>
             <td style="padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -264,7 +264,7 @@ categories: [학회소식, 워크샵]
           <!-- 4 (마지막줄은 내부표 하단선만) -->
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">4</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               EMSA 항공영상 위치 정확도 확보를<br>위한 센서 모델링 및 INR 기법 적용
             </td>
             <td style="padding: 0.6em; text-align:center;">
@@ -297,7 +297,7 @@ categories: [학회소식, 워크샵]
 
           <tr>
             <td style="width:70px; padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">1</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               산사태 발생 우려지역 스마트조사<br>기술개발 결과 발표
             </td>
             <td style="width:28%; padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -307,7 +307,7 @@ categories: [학회소식, 워크샵]
 
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">2</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               기계학습을 이용한 우즈베키스탄 산사태<br>분석
             </td>
             <td style="padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -317,7 +317,7 @@ categories: [학회소식, 워크샵]
 
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">3</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               AI 기반 산사태 취약성 분석<br>: 다중 모델비교 연구
             </td>
             <td style="padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -327,7 +327,7 @@ categories: [학회소식, 워크샵]
 
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">4</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               AI 기반 산림 변화탐지 모니터링 및<br>산사태 발생 연계 분석
             </td>
             <td style="padding: 0.6em; border-bottom: 1px solid #ddd; text-align:center;">
@@ -337,7 +337,7 @@ categories: [학회소식, 워크샵]
 
           <tr>
             <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">5</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#ddd;">
+            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
               패널토론<br>
               - 조원희 교수(공주대학교), 임철희 교수(국민대학교)
             </td>
