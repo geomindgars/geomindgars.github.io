@@ -160,18 +160,28 @@ categories: [학회소식, 워크샵]
 </table>
 
 <ul style="font-size: 0.95em; line-height: 1.8em;">
+  <li><strong>사전등록기간:</strong> 2026년 01월 13일(화) ~ 2026년 02월 10일(화)</li>
   <li><strong>결제방법:</strong> 신용카드 결제 및 계좌이체</li>
   <li><strong>등록비 납부계좌:</strong> 농협은행 351-1371-6668-13 (예금주: 지오마인드학회)</li>
   <li>※ 등록비 입금 시 <strong>등록자명</strong>으로 입금해주시기 바랍니다.</li>
   <li>※ 등록자명과 송금인이 다를 경우 반드시 학회 사무국 (geomind.society@gmail.com)으로 연락 바랍니다.</li>
 </ul>
 
-
-<br>
-<ul style="font-size: 0.95em; line-height: 1.8em;">
-  <li><strong>사전등록기간:</strong> 2026년 01월 13일(화) ~ 2026년 02월 10일(화)</li>
-</ul>
 <hr>
+<h4>📩 사전등록 하기.</h4>
+<p>
+<a href="https://forms.gle/ik8YyuMH5rAp3wSB9" target="_blank" class="button">☞ 사전등록</a>
+</p>
+
+<hr>
+
+
+<h4>📩 특별세션 신청 안내</h4>
+<ul style="font-size: 0.95em; line-height: 1.8em;">
+  <li><strong>신청기한:</strong> 2026년 01월 30일(금)까지</li>
+  <li><strong>신청방법 및 등록비:</strong> 학회 사무국으로 별도 문의</li>
+</ul>
+
 
 <h4>🗓️ 프로그램 세부일정</h4>
 
@@ -364,6 +374,14 @@ categories: [학회소식, 워크샵]
 </table>
 
 <hr>
+
+<h4>📩 자세한 일정은 아래의 링크를 확인 부탁드립니다.</h4>
+<p>
+<a href="../../행사일정" target="_blank" class="button">☞ 행사 일정</a>
+</p>
+
+<hr>
+
 
 <p style="font-size: 0.95em; line-height: 1.8em;">
   📢 많은 관심과 참여 부탁드립니다.<br>
