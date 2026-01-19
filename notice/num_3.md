@@ -212,7 +212,7 @@ categories: [학회소식, 워크샵]
     <tr>
       <td style="padding: 0.6em; border: 1px solid #ddd;">10:10–10:40 (30')</td>
       <td style="padding: 0.6em; border: 1px solid #ddd;"><strong>[기조발표 1]</strong><br>피지컬 AI 산업동향 및 주요전략</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;">김득중 부원장<br>정보통신산업진흥원</td>
+      <td style="padding: 0.6em; border: 1px solid #ddd;">김득중 부원장<br>(정보통신산업진흥원)</td>
     </tr>
 
     <tr>
