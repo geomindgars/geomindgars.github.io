@@ -159,6 +159,14 @@ categories: [학회소식, 워크샵]
   </tbody>
 </table>
 
+<ul style="font-size: 0.95em; line-height: 1.8em;">
+  <li><strong>결제방법:</strong> 신용카드 결제 및 계좌이체</li>
+  <li><strong>등록비 납부계좌:</strong> 농협은행 351-1371-6668-13 (예금주: 지오마인드학회)</li>
+  <li>※ 등록비 입금 시 <strong>등록자명</strong>으로 입금해주시기 바랍니다.</li>
+  <li>※ 등록자명과 송금인이 다를 경우 반드시 학회 사무국 (geomind.society@gmail.com)으로 연락 바랍니다.</li>
+</ul>
+
+
 <br>
 <ul style="font-size: 0.95em; line-height: 1.8em;">
   <li><strong>사전등록기간:</strong> 2026년 01월 13일(화) ~ 2026년 02월 10일(화)</li>
@@ -191,8 +199,8 @@ categories: [학회소식, 워크샵]
 
     <tr>
       <td style="padding: 0.6em; border: 1px solid #ddd;">10:10–10:40 (30')</td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"><strong>[기조발표 1]</strong></td>
-      <td style="padding: 0.6em; border: 1px solid #ddd;"></td>
+      <td style="padding: 0.6em; border: 1px solid #ddd;"><strong>[기조발표 1]</strong><br>피지컬 AI 산업동향 및 주요전략</td>
+      <td style="padding: 0.6em; border: 1px solid #ddd;">김득중 부원장<br>정보통신산업진흥원</td>
     </tr>
 
     <tr>
