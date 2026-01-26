@@ -354,15 +354,6 @@ categories: [학회소식, 워크샵]
               정봉석 연구원<br>(한국환경연구원)
             </td>
           </tr>
-
-          <tr>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#ddd; font-weight:700;">5</td>
-            <td style="padding: 0.6em; border-right: 1px solid #ddd; text-align:center; background-color:#FFFFFF;">
-              패널토론<br>
-              - 조원희 교수(공주대학교), 임철희 교수(국민대학교)
-            </td>
-            <td style="padding: 0.6em; text-align:center;">-</td>
-          </tr>
         </table>
       </td>
     </tr>
