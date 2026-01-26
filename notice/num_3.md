@@ -134,13 +134,18 @@ categories: [학회소식, 워크샵]
 <table style="width: 100%; border-collapse: collapse; font-size: 0.9em;">
   <thead>
     <tr style="background-color: #f2f2f2;">
-      <th style="padding: 0.6em; border: 1px solid #ccc;">구분</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">정회원(일반)</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">학생회원</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">비회원(일반)</th>
-      <th style="padding: 0.6em; border: 1px solid #ccc;">비회원(학생)</th>
+      <th rowspan="2" style="padding: 0.6em; border: 1px solid #ccc;">구분</th>
+      <th colspan="2" style="padding: 0.6em; border: 1px solid #ccc;">정회원</th>
+      <th colspan="2" style="padding: 0.6em; border: 1px solid #ccc;">준회원</th>
+    </tr>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 0.6em; border: 1px solid #ccc;">일반</th>
+      <th style="padding: 0.6em; border: 1px solid #ccc;">학생</th>
+      <th style="padding: 0.6em; border: 1px solid #ccc;">일반</th>
+      <th style="padding: 0.6em; border: 1px solid #ccc;">학생</th>
     </tr>
   </thead>
+
   <tbody>
     <tr>
       <td style="padding: 0.6em; border: 1px solid #ddd;">사전등록</td>
@@ -149,6 +154,7 @@ categories: [학회소식, 워크샵]
       <td style="padding: 0.6em; border: 1px solid #ddd;">300,000원</td>
       <td style="padding: 0.6em; border: 1px solid #ddd;">150,000원</td>
     </tr>
+
     <tr>
       <td style="padding: 0.6em; border: 1px solid #ddd;">현장등록</td>
       <td style="padding: 0.6em; border: 1px solid #ddd;">250,000원</td>
@@ -159,16 +165,20 @@ categories: [학회소식, 워크샵]
   </tbody>
 </table>
 
+
 <ul style="font-size: 0.95em; line-height: 1.8em;">
   <li><strong>사전등록기간:</strong> 2026년 01월 13일(화) ~ 2026년 02월 10일(화)</li>
   <li><strong>결제방법:</strong> 신용카드 결제 및 계좌이체</li>
   <li><strong>등록비 납부계좌:</strong> 농협은행 351-1371-6668-13 (예금주: 지오마인드학회)</li>
   <li>※ 등록비 입금 시 <strong>등록자명</strong>으로 입금해주시기 바랍니다.</li>
   <li>※ 등록자명과 송금인이 다를 경우 반드시 학회 사무국 (geomind.society@gmail.com)으로 연락 바랍니다.</li>
+  <li>※ 사전등록 시 개인은 현금영수증, 사업자는 세금계산서를 발행해 드려야 하오니 학회 사무국(02-864-9566)으로 문의 또는 인적사항을 이메일(geomind.society@gmail.com)로 알려주시기 바랍니다.</li>
+  
+
 </ul>
 
 <hr>
-<h4>📩 사전등록 하기.</h4>
+<h4>📩 사전등록 하기</h4>
 <p>
 <a href="https://forms.gle/ik8YyuMH5rAp3wSB9" target="_blank" class="button">☞ 사전등록</a>
 </p>
