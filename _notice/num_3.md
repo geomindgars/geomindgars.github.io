@@ -1,8 +1,8 @@
 ---
-layout: default
-title: "제1회 지오마인드학회 워크샵 안내"
+title: "제1회 지오마인드학회 워크샵 개최 안내"
 date: 2026-01-13
-categories: [학회소식, 워크샵]
+category: 워크샵
+summary: "2026년 2월 12일(목) 10:00–17:00 · 서울시립대학교 100주년기념관 305호 · 지구환경을 이해하는 Geomind 워크샵"
 ---
 <style>
   .customTable1 tr th {
@@ -99,15 +99,6 @@ categories: [학회소식, 워크샵]
   }
 </style>
 
-<br>
-<br>
-<div class="gayheader">
-  <span>제1회 지오마인드학회 워크샵 안내</span>
-  <div></div>
-</div>
-<br>
-<p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2026년 01월 13일</p>
-
 <p style="line-height: 1.8em; font-size: 0.95em;">
   지오마인드학회 학회원님들께, <br>
   안녕하세요. 지오마인드학회입니다. <br>
@@ -193,7 +184,6 @@ categories: [학회소식, 워크샵]
 </ul>
 
 <hr>
-<br>
 
 <h4>🗓️ 프로그램 세부일정</h4>
 

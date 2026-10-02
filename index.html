@@ -1,4 +1,227 @@
 ---
+layout: base
+title: 지오마인드학회
 ---
-<img src="assets/img/poster.png" style="width:100%;height:100%;">
+{%- assign ev = site.data.event -%}
+{%- assign notices = site.notice | sort: "date" | reverse -%}
+{%- assign now = site.time | date: "%s" | plus: 0 -%}
 
+<!-- ============ HERO ============ -->
+<section class="hero gm-hero">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid"></div>
+    <div class="stars">
+      {%- for i in (1..46) -%}
+      {%- assign x = i | times: 37 | modulo: 100 -%}
+      {%- assign y = i | times: 53 | modulo: 97 -%}
+      {%- assign d = i | times: 7 | modulo: 40 | divided_by: 10.0 -%}
+      {%- assign big = i | modulo: 6 -%}
+      <i style="left:{{ x }}%;top:{{ y }}%;animation-delay:{{ d }}s;{% if big == 0 %}width:3px;height:3px;background:#f0b429;{% endif %}"></i>
+      {%- endfor -%}
+    </div>
+    <div class="hero-visual">
+      <svg viewBox="0 0 800 800" fill="none">
+        <defs>
+          <radialGradient id="gmEarth" cx="40%" cy="35%" r="75%">
+            <stop offset="0" stop-color="#1b8a96"/>
+            <stop offset=".45" stop-color="#0e5562"/>
+            <stop offset=".8" stop-color="#082a36"/>
+            <stop offset="1" stop-color="#04121a"/>
+          </radialGradient>
+          <radialGradient id="gmGlow" cx="50%" cy="50%" r="50%">
+            <stop offset=".7" stop-color="#4fd1c5" stop-opacity="0"/>
+            <stop offset=".8" stop-color="#4fd1c5" stop-opacity=".28"/>
+            <stop offset="1" stop-color="#4fd1c5" stop-opacity="0"/>
+          </radialGradient>
+          <clipPath id="gmClip"><circle cx="420" cy="400" r="230"/></clipPath>
+          <filter id="gmBlur"><feGaussianBlur stdDeviation="4"/></filter>
+        </defs>
+
+        <!-- 지구 -->
+        <circle cx="420" cy="400" r="320" fill="url(#gmGlow)"/>
+        <circle cx="420" cy="400" r="230" fill="url(#gmEarth)"/>
+        <g clip-path="url(#gmClip)" stroke="#9be7df" stroke-opacity=".22" stroke-width="1.2">
+          <ellipse cx="420" cy="400" rx="230" ry="62"/>
+          <ellipse cx="420" cy="400" rx="230" ry="132"/>
+          <ellipse cx="420" cy="400" rx="230" ry="196"/>
+          <line x1="190" y1="400" x2="650" y2="400"/>
+          <!-- 회전하는 경선 -->
+          <ellipse cx="420" cy="400" rx="60" ry="230"><animate attributeName="rx" values="230;0;230" dur="12s" repeatCount="indefinite"/></ellipse>
+          <ellipse cx="420" cy="400" rx="160" ry="230"><animate attributeName="rx" values="160;0;160;230;160" keyTimes="0;.35;.6;.8;1" dur="12s" repeatCount="indefinite"/></ellipse>
+          <ellipse cx="420" cy="400" rx="0" ry="230"><animate attributeName="rx" values="0;230;0" dur="12s" repeatCount="indefinite"/></ellipse>
+        </g>
+        <circle cx="420" cy="400" r="230" stroke="#9be7df" stroke-opacity=".5" stroke-width="1.6"/>
+
+        <!-- 신경망 (로고 모티프) -->
+        <g class="gm-net" stroke="#f0b429" stroke-width="2" stroke-linecap="round">
+          <path class="gm-draw" d="M230 270 L300 230 L380 252 L330 318 L250 345 L230 270 Z"/>
+          <path class="gm-draw d2" d="M300 230 L330 318 L392 360 L380 252"/>
+          <path class="gm-draw d3" d="M250 345 L282 430 L392 360 L460 300 L380 252"/>
+          <path class="gm-draw d4" d="M282 430 L360 470 L392 360"/>
+        </g>
+        <g fill="#f7d36b">
+          <circle class="gm-node" cx="230" cy="270" r="8"/>
+          <circle class="gm-node n2" cx="300" cy="230" r="7"/>
+          <circle class="gm-node n3" cx="380" cy="252" r="7"/>
+          <circle class="gm-node n4" cx="330" cy="318" r="8"/>
+          <circle class="gm-node n2" cx="250" cy="345" r="7"/>
+          <circle class="gm-node n3" cx="392" cy="360" r="9"/>
+          <circle class="gm-node n4" cx="282" cy="430" r="7"/>
+          <circle class="gm-node" cx="460" cy="300" r="6"/>
+          <circle class="gm-node n2" cx="360" cy="470" r="6"/>
+        </g>
+
+        <!-- 궤도와 데이터 입자 -->
+        <g class="spin-rev">
+          <ellipse cx="420" cy="400" rx="360" ry="190" stroke="#ffffff" stroke-opacity=".14" stroke-dasharray="2 9" transform="rotate(-18 420 400)"/>
+          <g transform="rotate(-18 420 400)">
+            <circle cx="780" cy="400" r="6" fill="#f0b429"/>
+            <circle cx="780" cy="400" r="16" fill="#f0b429" opacity=".25" filter="url(#gmBlur)"/>
+          </g>
+        </g>
+        <g class="spin">
+          <ellipse cx="420" cy="400" rx="300" ry="300" stroke="#4fd1c5" stroke-opacity=".18"/>
+          <circle cx="120" cy="400" r="4" fill="#4fd1c5"/>
+          <circle cx="420" cy="100" r="3" fill="#9be7df"/>
+        </g>
+        <circle cx="420" cy="400" r="395" stroke="#ffffff" stroke-opacity=".05"/>
+      </svg>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="hero-content">
+      <span class="eyebrow">GeoMind Society</span>
+      <h1>공간, 지질, 인공지능을 잇는<br><em>지오인텔리전스</em>의 시작</h1>
+      <p class="lead">지오마인드학회는 공간정보, 지질학, 위성자료, <strong>인공지능(AI)의 융복합</strong>을 통해 미래사회를 이끌 <strong>공간지능(GEO-AI) 생태계</strong> 조성과 학제 간 혁신적 연구와 교육을 선도합니다.</p>
+      <div class="hero-actions">
+        {% if ev %}<a class="btn btn-accent" href="{{ ev.notice | default: '/행사일정' | relative_url }}">{{ ev.title | remove: " 개최 안내" | remove: " 개최" }} {% include icon.html name="arrow" %}</a>{% endif %}
+        <a class="btn btn-ghost" href="{{ '/인사말' | relative_url }}">학회 소개</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">SCROLL</div>
+</section>
+
+<!-- ============ QUICK LINKS ============ -->
+<section class="quick">
+  <div class="container">
+    <div class="quick-grid">
+      <a class="quick-item" href="{{ '/학회소식' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="megaphone" %}</span>
+        <div><strong>학회소식</strong><span>공지사항과 교육·행사 안내</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/행사일정' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="calendar" %}</span>
+        <div><strong>행사일정</strong><span>워크샵·교육·세미나</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/회원가입안내' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="user-plus" %}</span>
+        <div><strong>회원가입</strong><span>회원 구분과 가입 절차</span></div>
+      </a>
+      <a class="quick-item" href="{{ '/정관' | relative_url }}">
+        <span class="quick-icon">{% include icon.html name="book" %}</span>
+        <div><strong>학회 정관</strong><span>운영 원칙과 규정</span></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ NEWS + EVENT ============ -->
+<section class="home-section">
+  <div class="container">
+    <div class="news-split">
+      <div class="reveal">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">News &amp; Notice</span>
+            <h2>학회소식</h2>
+          </div>
+          <a class="more-link" href="{{ '/학회소식' | relative_url }}">전체보기 {% include icon.html name="arrow" %}</a>
+        </div>
+        <ul class="news-list">
+          {%- for n in notices limit: 5 %}
+          {%- assign cat = n.category | default: n.categories.last | default: "공지" -%}
+          {%- assign age = n.date | date: "%s" | plus: 0 | minus: now | abs -%}
+          <li>
+            <a href="{{ n.url | relative_url }}">
+              <span class="badge" data-cat="{{ cat }}">{{ cat }}</span>
+              <span class="title">{{ n.title }}{% if age < 2592000 %}<span class="is-new">NEW</span>{% endif %}</span>
+              <span class="date">{{ n.date | date: "%Y.%m.%d" }}</span>
+            </a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </div>
+
+      {% if ev %}
+      <div class="reveal">
+        <div class="panel-head">
+          <div>
+            <span class="eyebrow">Upcoming Event</span>
+            <h2>행사일정</h2>
+          </div>
+          <a class="more-link" href="{{ '/행사일정' | relative_url }}">자세히 {% include icon.html name="arrow" %}</a>
+        </div>
+        <a class="event-card" href="{{ ev.notice | default: '/행사일정' | relative_url }}">
+          <div class="poster"><img src="{{ ev.thumb | default: ev.poster | relative_url }}" alt="{{ ev.title }} 포스터" loading="lazy"></div>
+          <div class="meta">
+            <span class="label">{{ ev.label | default: "Event" }}</span>
+            <h3>{{ ev.title | remove: " 개최 안내" | remove: " 개최" }}</h3>
+            <dl>
+              {% if ev.when %}<dt>일시</dt><dd>{{ ev.when }}</dd>{% endif %}
+              {% if ev.where %}<dt>장소</dt><dd>{{ ev.where }}</dd>{% endif %}
+            </dl>
+          </div>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="home-section soft">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <img src="{{ '/assets/img/poster_web.jpg' | relative_url }}" alt="지오마인드학회 소개 포스터" loading="lazy">
+      </div>
+      <div class="about-copy reveal">
+        <span class="eyebrow">About GeoMind</span>
+        <h2>GeoAI 데이터로 여는<br><em>공간지능사회</em></h2>
+        <p>지오마인드학회는 위성자료·지리공간정보·지질학·인공지능 융합 분야의 GeoAI 데이터 생산 및 활용 기반 학문 발전과 공간지능사회 실현을 위해 2025년 7월 15일 설립되었습니다.</p>
+        <div class="pillars">
+          <div class="pillar">
+            <span class="num">01</span>
+            <div><strong>AI·AX 융복합 학술활동</strong><span>AI, AX 융복합 분야와 공간지능(Geo-AI) 생태계 조성을 위한 교육·세미나 등 학술활동</span></div>
+          </div>
+          <div class="pillar">
+            <span class="num">02</span>
+            <div><strong>SAR·지진·화산 연구</strong><span>SAR 이미지 분석과 인공지능, 지진활동 및 화산 모니터링</span></div>
+          </div>
+          <div class="pillar">
+            <span class="num">03</span>
+            <div><strong>융합 연구와 인재 양성</strong><span>융합 연구 및 학술 교류, 차세대 공간지능 인재 양성, 국제학술교류·연구개발사업</span></div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ '/인사말' | relative_url }}">회장 인사말 {% include icon.html name="arrow" %}</a>
+          <a class="btn btn-outline" href="{{ '/설립목적및비전' | relative_url }}">설립 목적 및 비전</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATEMENT ============ -->
+<section class="statement">
+  <div class="container reveal">
+    <p class="small">공간, 지질, 인공지능을 잇는 지오인텔리전스</p>
+    <h2>현장에서 바로 쓰는 <em>GeoAI</em>, 함께 만들어갑니다</h2>
+    <div class="hero-actions" style="justify-content:center">
+      <a class="btn btn-accent" href="{{ '/회원가입안내' | relative_url }}">회원가입 안내 {% include icon.html name="arrow" %}</a>
+      <a class="btn btn-ghost" href="mailto:{{ site.society.email }}">사무국 문의</a>
+    </div>
+  </div>
+</section>

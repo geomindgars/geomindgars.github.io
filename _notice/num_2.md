@@ -1,8 +1,8 @@
 ---
-layout: default
-title: "제2차 GIS AI 챗봇 개발 교육 안내"
+title: "2025년 제2차 GIS AI 챗봇 개발 교육 안내"
 date: 2025-11-26
-categories: [학회소식, 교육]
+category: 교육
+summary: "2025년 12월 4일(목)–5일(금) · 경북대학교 제2과학관 · 지하수 관리의 AI 전환: LLM·RAG·Agent 기반 지능형 분석 워크플로우"
 ---
 <style>
   .customTable1 tr th {
@@ -33,14 +33,6 @@ categories: [학회소식, 교육]
 }
 </style>
 
-<br>
-<br>
-<div class="gayheader">
-  <span>제2차 GIS AI 챗봇 개발 교육 안내</span>
-  <div></div>
-</div>
-<br>
-<p style="text-align: right; font-size: 0.9em; color: gray; margin-bottom: 2em;">게시일: 2025년 11월 26일</p>
   <p style="line-height: 1.8em; font-size: 0.95em;">
     지오마인드학회 학회원님들께, <br>
     안녕하세요. 지오마인드학회입니다. <br>
@@ -78,7 +70,6 @@ categories: [학회소식, 교육]
     </tr>
   </tbody>
 </table>
-<br>
 <a href="" target="_blank" class="button">☞ 튜토리얼 세션 신청하기</a>
   </ul>
 <hr>

@@ -1,0 +1,11 @@
+# 현재 진행 중인 대표 행사 — 홈 화면 "Upcoming Event" 카드와 [학술대회 > 행사일정] 페이지에 표시됩니다.
+title: 제1회 지오마인드학회 워크샵 개최
+label: Workshop
+poster: /assets/img/event_1.png
+# 홈 카드용 가벼운 이미지 (없으면 poster 사용)
+thumb: /assets/img/event_1_web.jpg
+when: 2026.02.12.(목) 10:00 – 17:00
+where: 서울시립대학교 100주년기념관 305호
+theme: 지구환경을 이해하는 Geomind 워크샵
+notice: /notice/num_3
+register: https://forms.gle/ik8YyuMH5rAp3wSB9
