@@ -4,8 +4,6 @@ date: 2026-10-30
 category: 교육
 summary: "2026년 11월 20일(금) 13:00–18:00 · 르호봇 프라임 삼성 비즈니스 센터 · 생성형 AI로 지하수질·토양오염 공간분석 실습"
 image: /assets/img/event_2.png
-attachments:
-  - /assets/files/20261120_Claude_Code_지질환경_공간분석_교육안내.hwp
 
 intro: |-
   지오마인드학회에서는 생성형 AI를 활용한 지질·환경 공간데이터 분석 및 학술연구 역량 강화를 위하여 **「Claude Code 기반 지질·환경 공간분석 및 실습」** 교육을 개최합니다.
