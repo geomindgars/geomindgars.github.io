@@ -59,6 +59,13 @@ fee_notes:
   - "사전등록 시 개인은 현금영수증, 사업자는 세금계산서를 발행해 드려야 하오니 학회 사무국(02-864-9566)으로 문의하시거나 인적사항을 이메일(geomind.society@gmail.com)로 알려 주시기 바랍니다."
 
 sections:
+  - heading: 신청방법
+    content: |-
+      - 사무국 문의 (☎ 02-864-9566, ✉ [geomind.society@gmail.com](mailto:geomind.society@gmail.com))
+  - heading: 사전준비물
+    content: |-
+      - 실습이 가능한 개인 노트북
+      - Claude 유료 계정 (개인 계정 필요)
   - heading: 수료 안내
     content: |-
       - 교육 종료 후 수료증(Certificate of Completion)을 발급합니다.
